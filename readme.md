@@ -1,2 +1,1 @@
-![Portfolio](https://res.cloudinary.com/dpwauajek/image/upload/v1698263746/pl4ftg3njukfmhsqylgb.png)
-
+![Portfolio](https://res.cloudinary.com/dpwauajek/image/upload/v1698265055/portfolio-website/xnl6dwomx8ytlxjb42ou.png)
