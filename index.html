@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ff1e61241.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="header"> 
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Nirmal</span> <br/> Panchal from Canada</h1>
+            </div>
+        </div>
+    </div>
+<!--------------------About---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About me </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quo beatae ut ipsa maxime delectus. Pariatur impedit voluptatum beatae laboriosam 
+                        ipsa eum, quod reprehenderit necessitatibus esse, asperiores at eveniet est commodi?
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event,'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event,'experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab(event,'education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>API Development</span><br>API development using Java and Spring Boot</li>
+                            <li><span>Microservice Development</span><br>Microservice Using Spring Boot</li>
+                            <li><span>Terraform</span><br>Infrastructure as a Code on AWS</li>
+                            <li><span>Kubernetes</span><br>Kubernetes on AWS</li>
+                            <li><span>HTML, CSS and Javascript</span><br>Frontend Development using HTML, CSS and Javascript</li>
+                            <li><span>React.js and Angular</span><br>Frontend Development using React and Angular</li>
+                            <li><span>Node.js</span><br>Backend Development using Node.js</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>                            
+                            <li><span>2022 Fall & Current</span><br>Co-Op Junior Web Developer at Treasury Board of Secretariat (OPS)</li>
+                            <li><span>2020-2021</span><br>Senior Software Engineer at Profinch Solution, Pune, India</li>
+                            <li><span>2017-2020</span><br>Senior System Engineer at Infosys, Pune, India</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Graduate Certificate in Cloud Architecture and Administration from Seneca College, North York, ON, Canada</li>
+                            <li><span>2022</span><br>Graduate Certificate in Database Application Developer from Seneca College, North York, ON, Canada</li>
+                            <li><span>2017</span><br>BE from K.J Somaiya College of Engineering, Mumbai, India</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!------------services       -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab debitis voluptatem quisquam unde corrupti. Dolorem possimus accusamus explicabo ipsam esse quia deleniti excepturi doloremque quas! Nisi, aut! Eum, sit sequi.</p>
+                <a href="#">Learn More </a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab debitis voluptatem quisquam unde corrupti. Dolorem possimus accusamus explicabo ipsam esse quia deleniti excepturi doloremque quas! Nisi, aut! Eum, sit sequi.</p>
+                <a href="#">Learn More </a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab debitis voluptatem quisquam unde corrupti. Dolorem possimus accusamus explicabo ipsam esse quia deleniti excepturi doloremque quas! Nisi, aut! Eum, sit sequi.</p>
+                <a href="#">Learn More </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-----Portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"> My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png"/>
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png"/>
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png"/>
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+
+
+<!--------------------contact ----------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> panchalnirmal157@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +1 905 341 3927</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/panchalnirmal157/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/nirmal-panchal-335056116"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/SparksNirm"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" onsubmit="submittogoogle(event)">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ Nirmal. Made with <i class="fa-solid fa-heart"></i></p>
+       
+
+    </div>
+</div>  
+</body>
+</html>
