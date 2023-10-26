@@ -11,8 +11,9 @@
     </p>
 </div>
 <p>
-    <a href="#introduction">
+    <a href="#introduction-">Introduction</a>
 </p>
+
 ## Introduction 👋
 
 Portfolio-wesite is build using basic HTML, CSS and JavaScript. It is also responsive for small devices. It is deployed on Netlify
