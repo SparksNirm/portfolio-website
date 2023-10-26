@@ -16,4 +16,4 @@
 
 ## Introduction 👋
 
-Portfolio-wesite is build using basic HTML, CSS and JavaScript. It is also responsive for small devices. It is deployed on Netlify.
+Portfolio-wesite is build using basic HTML, CSS and JavaScript. It is also responsive for small devices. The Data that is inserted into the form will get stored in google sheets. It is deployed on Netlify.
