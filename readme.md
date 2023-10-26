@@ -10,10 +10,10 @@
          <img src="https://img.shields.io/github/forks/SparksNirm/portfolio-website?style=for-the-badge" />
     </p>
 </div>
-<p>
+<p align="center">
     <a href="#introduction-">Introduction</a>
 </p>
 
 ## Introduction 👋
 
-Portfolio-wesite is build using basic HTML, CSS and JavaScript. It is also responsive for small devices. It is deployed on Netlify
+Portfolio-wesite is build using basic HTML, CSS and JavaScript. It is also responsive for small devices. It is deployed on Netlify.
