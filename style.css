@@ -312,6 +312,11 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 
+.sub-title{
+    font-size: 25px;
+    color:#fff;
+}
+
 .contact-left p i{
  color: #ff004f;
  margin-right: 15px;
